@@ -8,7 +8,7 @@ const bodyParser = require ("body-parser");
 const db = require("./models");
 //mongo and mongoose
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/nynewsdb";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://user:password@ds247377.mlab.com:47377/heroku_flx5r7qg";
 
 const PORT = process.env.PORT || 3000;
 
