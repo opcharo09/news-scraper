@@ -1,0 +1,14 @@
+html{
+    position: relative;
+    min-height: 100%;
+
+}
+
+.navbar{
+    width: 100%;
+    background: orange;
+}
+
+.nav a {
+    margin: 1vw;
+}
