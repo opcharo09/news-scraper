@@ -92,3 +92,8 @@ $.getJSON("/articles", function(data) {
     $("#titleinput").val("");
     $("#bodyinput").val("");
   })
+
+  // need to refactor code 
+//   add code to make call 
+//   add code to show article
+//   add code for buttons once arcticle a render on the page
