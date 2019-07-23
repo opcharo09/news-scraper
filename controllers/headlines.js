@@ -30,7 +30,7 @@ module.exports= {
         });
     },
     update: function(query,cb){
-        Article.update({_id: query._id,{
+        Article.update({_id: query._id,
             $set:query
         }, {}, cb);
     }
